@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhoneCallLog</string>
+    <string name="action_settings">Settings</string>
+    <string name ="date">Selecte the date</string>
+    <string name ="from">From</string>
+    <string name ="to">To</string>
+    <string name="day">Day</string>
+    <string name="month">Selecte the month</string>
+    <string name="year">Selecte the year</string>
+    <string name="search">Search</string>
+    <string name="info">Phone Call Infomation</string>
+    <string name="phonenumber">PhoneNumber</string>
+    <string name="password">P a s s w o r d</string>
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="out">Outgoing Call List</string>
+    <string name="in">Incoming Call List</string>
+    <string name="miss">Missed Call List</string>
+    <string name="details">details ></string>
+    <string name="enter_name">Please enter the name</string>
+    <string name="search_result">Search Result :</string>
+    <string name="language_setting">Language Setting</string>
+    <string name="check">Please check language !</string>
+    <string name="arabic">A r a b i c</string>
+    <string name="english">E n g l i s h</string>
+    <string name="confirm">C o n f i r m</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    
+    <string-array name="months">
+        <item>-</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background1"
+    android:padding="2dp" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layoutButtonContainer" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/bottom_layout_padding" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/input_label_padding_bottom"
+                android:dividerPadding="5dp"
+                android:gravity="center_vertical"
+                android:showDividers="middle" >
+
+                <ImageView
+                    android:id="@+id/ImageView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/input_label_padding_bottom"
+                    android:src="@drawable/icon_schedule_date"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subject"
+                    android:textColor="@color/input_label_text_color"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/input_line_space"
+                android:background="@drawable/list_row"
+                android:clickable="true" >
+
+                <EditText
+                    android:id="@+id/etName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:ems="10"
+                    android:gravity="top|left"
+                    android:inputType="textEmailSubject"
+                    android:paddingBottom="@dimen/input_padding_width"
+                    android:paddingLeft="@dimen/input_padding_width"
+                    android:paddingRight="@dimen/input_padding_width"
+                    android:paddingTop="@dimen/input_padding_width"
+                    android:scrollHorizontally="true"
+                    android:textColor="@color/input_text_color"
+                    android:textSize="@dimen/input_font_size" >
+
+                    <requestFocus />
+                </EditText>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/input_label_padding_bottom"
+                android:dividerPadding="5dp"
+                android:gravity="center_vertical"
+                android:showDividers="middle" >
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/input_label_padding_bottom"
+                    android:src="@drawable/icon_schedule_date"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reply Email Address"
+                    android:textColor="@color/input_label_text_color"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/input_line_space"
+                android:background="@drawable/list_row"
+                android:clickable="true" >
+
+                <EditText
+                    android:id="@+id/etEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:ems="10"
+                    android:gravity="top|left"
+                    android:inputType="textEmailAddress"
+                    android:paddingBottom="@dimen/input_padding_width"
+                    android:paddingLeft="@dimen/input_padding_width"
+                    android:paddingRight="@dimen/input_padding_width"
+                    android:paddingTop="@dimen/input_padding_width"
+                    android:scrollHorizontally="true"
+                    android:textColor="@color/input_text_color"
+                    android:textSize="@dimen/input_font_size" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/input_label_padding_bottom"
+                android:dividerPadding="5dp"
+                android:gravity="center_vertical"
+                android:showDividers="middle" >
+
+                <ImageView
+                    android:id="@+id/ImageView06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/input_label_padding_bottom"
+                    android:src="@drawable/icon_messages"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Message"
+                    android:textColor="@color/input_label_text_color"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/input_line_space"
+                android:background="@drawable/list_row"
+                android:clickable="true" >
+
+                <EditText
+                    android:id="@+id/etMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:ems="10"
+                    android:gravity="top|left"
+                    android:inputType="textMultiLine|textLongMessage"
+                    android:minHeight="@dimen/input_message_height"
+                    android:paddingBottom="@dimen/input_padding_width"
+                    android:paddingLeft="@dimen/input_padding_width"
+                    android:paddingRight="@dimen/input_padding_width"
+                    android:paddingTop="@dimen/input_padding_width"
+                    android:scrollHorizontally="true"
+                    android:textColor="@color/input_text_color"
+                    android:textSize="@dimen/input_font_size" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/layoutButtonContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/bottom_layout_padding" >
+
+        <RelativeLayout
+            android:id="@+id/layoutButtonSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_action"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="@dimen/rounded_corner_padding" >
+
+            <TextView
+                android:id="@+id/tvEstimatingTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowDy="2.0"
+                android:text="Send"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/button_font_size" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+ 
+</RelativeLayout>

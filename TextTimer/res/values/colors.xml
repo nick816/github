@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Button -->
+    <color name="button_fg_color">#3a788f</color>
+    <color name="button_shadow_color">#32667a</color>
+    
+    <color name="background1">#f0f0f0</color>
+    <color name="background_overlay">#8effffff</color>
+    
+    <!-- Tab -->
+    <color name="tab_bar_color">#ffffff</color>
+    <color name="tab_bar_shadow_color">#e8e9e9</color>
+    <color name="selected_tab_bar_label_color">#597091</color>
+    <color name="tab_bar_label_color">#3c4c62</color>
+    
+    <!-- List Row -->
+    <color name="row_title_color">#606366</color>
+    <color name="row_content_color">#898e91</color>
+    <color name="row_remaining_titme_color">#f7456f</color>
+    <color name="row_background_color">#ccfefefe</color>
+    <color name="pressed_row_background_color">#ebebeb</color>
+    <color name="home_button_text_color">#9b9ea0</color>
+    
+    <!-- Input -->
+    <color name="input_label_text_color">#707b84</color>
+    <color name="input_text_color">#979b9d</color>
+    
+    <!-- How To's -->
+    <color name="header_font_color">#bac1c5</color>
+    <color name="updated_font_color">#d43c2e</color>
+    <color name="title_font_color">#000000</color>
+    <color name="content_font_color">#5c5c5c</color>
+    
+    <!-- Contacts List -->
+    <color name="contact_name_font_color">#979b9d</color>
+    <color name="contact_phone_type_font_color">#979b9d</color>
+</resources>

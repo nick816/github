@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="horizontal"
+    android:paddingBottom="1dp" >
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/button_tab"
+        android:text="All"
+        android:textSize="@dimen/button_font_size" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-5dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingLeft="5dp" >
+
+        <Button
+            android:id="@+id/btnScheduled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_tab"
+            android:lines="1"
+            android:text="Scheduled"
+            android:textSize="@dimen/button_font_size" />
+
+        <TextView
+            android:id="@+id/tvEstimatingTime"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="-5dp"
+            android:gravity="center"
+            android:text="+" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-5dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingLeft="5dp" >
+
+        <Button
+            android:id="@+id/btnSent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_tab"
+            android:lines="1"
+            android:text="Sent"
+            android:textSize="@dimen/button_font_size" />
+
+        <TextView
+            android:id="@+id/tvScheduleDate"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="-5dp"
+            android:gravity="center"
+            android:text="+" />
+
+    </RelativeLayout>
+
+</LinearLayout>

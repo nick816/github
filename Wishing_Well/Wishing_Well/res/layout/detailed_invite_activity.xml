@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/notify_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/invite_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioGroup
+            android:id="@+id/rad_accept_reject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/rad_accept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Accept as friend" />
+
+            <RadioButton
+                android:id="@+id/rad_reject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reject,I don&apos;t like!" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rad_select_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp" >
+
+            <RadioButton
+                android:id="@+id/rad_group1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Category 1" />
+
+            <RadioButton
+                android:id="@+id/rad_group2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category 2" />
+
+            <RadioButton
+                android:id="@+id/rad_group3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category 3" />
+
+            <RadioButton
+                android:id="@+id/rad_group4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category 4" />
+
+            <RadioButton
+                android:id="@+id/rad_group5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category 5" />
+
+            <RadioButton
+                android:id="@+id/rad_group6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category 6" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_invite_submit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@xml/btnselector"
+        android:text="Submit"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

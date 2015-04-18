@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layoutButtonHowTos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_row"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/row_padding"
+        android:paddingLeft="@dimen/home_row_left"
+        android:paddingRight="@dimen/home_row_right"
+        android:paddingTop="@dimen/row_padding" >
+
+        <RelativeLayout
+            android:layout_width="@dimen/home_icon_size"
+            android:layout_height="@dimen/home_icon_size"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/ImageView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_howtos" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/row_padding"
+            android:text="How To’s"
+            android:textColor="@color/home_button_text_color"
+            android:textSize="@dimen/home_button_font_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButtonAboutUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_row"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/row_padding"
+        android:paddingLeft="@dimen/home_row_left"
+        android:paddingRight="@dimen/home_row_right"
+        android:paddingTop="@dimen/row_padding" >
+
+        <RelativeLayout
+            android:layout_width="@dimen/home_icon_size"
+            android:layout_height="@dimen/home_icon_size"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/ImageView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_about_us" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvScheduleDate1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/row_padding"
+            android:text="About Us"
+            android:textColor="@color/home_button_text_color"
+            android:textSize="@dimen/home_button_font_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButtonContactUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_row"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/row_padding"
+        android:paddingLeft="@dimen/home_row_left"
+        android:paddingRight="@dimen/home_row_right"
+        android:paddingTop="@dimen/row_padding" >
+
+        <RelativeLayout
+            android:layout_width="@dimen/home_icon_size"
+            android:layout_height="@dimen/home_icon_size"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/ImageView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_contact_us" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvScheduleTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/row_padding"
+            android:text="Contact Us"
+            android:textColor="@color/home_button_text_color"
+            android:textSize="@dimen/home_button_font_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButtonLegalsTerms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_row"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/row_padding"
+        android:paddingLeft="@dimen/home_row_left"
+        android:paddingRight="@dimen/home_row_right"
+        android:paddingTop="@dimen/row_padding"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:layout_width="@dimen/home_icon_size"
+            android:layout_height="@dimen/home_icon_size"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_legals_terms" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/layoutRecepientsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/row_padding"
+            android:text="Legals &amp; terms"
+            android:textColor="@color/home_button_text_color"
+            android:textSize="@dimen/home_button_font_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButtonShareThisApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_row"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/row_padding"
+        android:paddingLeft="@dimen/home_row_left"
+        android:paddingRight="@dimen/home_row_right"
+        android:paddingTop="@dimen/row_padding" >
+
+        <RelativeLayout
+            android:layout_width="@dimen/home_icon_size"
+            android:layout_height="@dimen/home_icon_size"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_share" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/row_padding"
+            android:text="Share This App"
+            android:textColor="@color/home_button_text_color"
+            android:textSize="@dimen/home_button_font_size" />
+
+    </LinearLayout>
+
+</LinearLayout>
