@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">전화통화리력</string>
+    <string name="action_settings">설정</string>
+    <string name="day">날자</string>
+    <string name ="date">날자를 선택하시오</string>
+    <string name ="from">부터</string>
+    <string name ="to">까지</string>
+    <string name="month">달을 선택하시오</string>
+    <string name="year">해를 선택하시오</string>
+    <string name="search">검색</string>
+    <string name="info">전화통화정보</string>
+    <string name="phonenumber">전화번호</string>
+    <string name="password">암호</string>
+    <string name="login">로그인</string>
+    <string name="signup">가입하기</string>
+    <string name="out">찾은 전화 목록</string>
+    <string name="in">받은 전화 목록</string>
+    <string name="miss">받지못한 통화 목록</string>
+    <string name="details">상세보기 ></string>
+    <string name="enter_name">이름을 입력하시오</string>
+    <string name="search_result">검색 결과 :</string>
+    <string name="language_setting">언어설정</string>
+    <string name="check">언어를 선택하시오 !</string>
+    <string name="arabic">아랍어</string>
+    <string name="english">영어</string>
+    <string name="confirm">확인</string>
+    <string name="register">등록</string>
+    <string name="cancel">취소</string>
+    
+    <string-array name="months">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+</resources>

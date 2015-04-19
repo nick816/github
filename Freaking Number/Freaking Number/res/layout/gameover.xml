@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@drawable/mainColor"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"            
+   			  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<LinearLayout
+		android:id="@+id/parentLayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:gravity="center">
+	    <ImageView
+	        android:id="@+id/logo"
+	        android:layout_width="120dp"
+	        android:layout_height="120dp"
+	        android:layout_centerHorizontal="true"
+	        android:contentDescription="@string/abc"
+	        android:src="@drawable/textlogo"
+	        />
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/gameover"
+	            android:layout_centerHorizontal="true"
+	            android:textColor="#fff"
+	            android:textSize="40sp"
+	            android:layout_marginBottom="20dp"
+	            />
+	        <LinearLayout
+	            android:layout_width="200dp"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            >
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="new"
+	                android:textSize="30sp"
+	                android:layout_marginRight="20dp"
+	                android:layout_marginEnd="20dp"
+	                android:layout_marginTop="10dp"
+	                />
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/num8"
+	                android:textSize="60sp"
+	                android:textColor="#fff"
+	                android:id="@+id/curent_score"
+	                android:layout_gravity="bottom"
+	                />
+	        </LinearLayout>
+	        <LinearLayout
+	            android:layout_width="200dp"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            >
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Best:"
+	                android:textSize="30sp"
+	                android:layout_marginRight="20dp"
+	                android:layout_marginTop="10dp"
+	                />
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="30"
+	                android:textSize="60sp"
+	                android:textColor="#fff"
+	                android:id="@+id/best_score"
+	                android:layout_gravity="bottom"
+	                />
+	        </LinearLayout>
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/play"
+	        android:id="@+id/play_btn"
+	        android:contentDescription="@string/abc" />
+	    
+	</LinearLayout>
+
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentEnd="true"  >
+
+		<com.google.android.gms.ads.AdView
+		    xmlns:ads="http://schemas.android.com/apk/res-auto"
+		    android:id="@+id/AdMob"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:background="#88000000"
+		    app:adSize="MEDIUM_RECTANGLE"
+		    app:adUnitId="ca-app-pub-5757354627664623/5493693793" >
+	           
+		</com.google.android.gms.ads.AdView>
+
+		 <Button
+		     android:id="@+id/back"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:layout_alignParentBottom="true"
+		     android:layout_alignParentRight="true"
+		     android:layout_marginBottom="36dp"
+		     android:layout_marginRight="15dp"
+		     android:background="@drawable/btnback"
+		     android:minHeight="20dip"
+		     android:minWidth="20dip" />
+
+	</RelativeLayout>
+	
+</RelativeLayout>

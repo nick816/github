@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/category_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioGroup
+            android:id="@+id/rad_modify_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp" >
+
+            <RadioButton
+                android:id="@+id/rad_mod_group1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Category 1" />
+
+            <RadioButton
+                android:id="@+id/rad_mod_group2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category 2" />
+
+            <RadioButton
+                android:id="@+id/rad_mod_group3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category 3" />
+
+            <RadioButton
+                android:id="@+id/rad_mod_group4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category 4" />
+
+            <RadioButton
+                android:id="@+id/rad_mod_group5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category 5" />
+
+            <RadioButton
+                android:id="@+id/rad_mod_group6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category 6" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_modify_group_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@xml/btnselector"
+        android:textColor="#ffffff"
+        android:text="Submit" />
+
+</LinearLayout>

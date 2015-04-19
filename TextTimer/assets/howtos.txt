@@ -1,0 +1,7 @@
+Text Timer is an app that allows you to send messages at a later date and time to one or more contacts. 
+  1. Compose a Message
+       1. Schedule a date
+       2. Schedule a time
+       3. Choose one or more contacts
+            1. Select a chosen contact to remove it
+       4. Type a message

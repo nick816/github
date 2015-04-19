@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/settings" android:title="Menu" android:icon="@drawable/menu" android:showAsAction="always">
+        <menu>
+           
+		    <item android:id="@+id/search" android:showAsAction="never" android:icon="@drawable/address_book" android:title="통화 리력 검색"></item>
+		    <item android:id="@+id/help" android:showAsAction="never" android:icon="@drawable/help_icon" android:title="도움말"></item>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc" />
+ 	<string name="number" >23</string>
+ 	<string name="gameover" >Game Over</string>
+ 	<string name="num8" >8</string>
+ 	<string name="app_name">Freaking Number</string>
+     	
+</resources>

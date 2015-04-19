@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:orientation="vertical"
+    android:paddingTop="1dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/list_row" >
+
+        <RelativeLayout
+            android:id="@+id/layoutArrowLeft"
+            android:layout_width="@dimen/arrow_width"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/layoutScheduleContent"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/layoutScheduleContent"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/ivNavigationIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_left_arrow" />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/layoutScheduleContent"
+            android:layout_alignTop="@+id/layoutScheduleContent"
+            android:layout_toLeftOf="@+id/layoutArrowLeft"
+            android:background="@color/pressed_row_background_color" >
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutDatetime"
+            android:layout_width="@dimen/send_datetime_width"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/layoutScheduleContent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@+id/layoutScheduleContent"
+            android:layout_marginRight="1dp"
+            android:layout_toLeftOf="@+id/layoutArrowLeft"
+            android:background="@null"
+            android:gravity="bottom|left"
+            android:paddingBottom="@dimen/row_padding"
+            android:paddingRight="@dimen/row_padding" >
+
+            <TextView
+                android:id="@+id/tvReservationDateTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:lines="1"
+                android:text="Reservartion DateTime"
+                android:textColor="@color/row_content_color"
+                android:textSize="@dimen/row_datetime_font_size" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutScheduleContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/layoutDatetime"
+            android:background="@null"
+            android:padding="@dimen/row_padding" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvRecipient"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:text="Recipient"
+                    android:textColor="@color/row_title_color"
+                    android:textSize="@dimen/row_title_font_size" />
+
+                <TextView
+                    android:id="@+id/tvMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:lines="1"
+                    android:text="Message"
+                    android:textColor="@color/row_content_color"
+                    android:textSize="@dimen/row_content_font_size" />
+
+                <LinearLayout
+                    android:id="@+id/layoutRemainingTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_timer" />
+
+                    <TextView
+                        android:id="@+id/tvRemainingDateTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:lines="1"
+                        android:text="Remaining DateTime"
+                        android:textColor="@color/row_remaining_titme_color"
+                        android:textSize="@dimen/row_remaining_time_font_size" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
